@@ -17,9 +17,7 @@ public class CrmService {
     private final CompanyRepository companyRepository;
     private final StatusRepository statusRepository;
 
-    public CrmService(ContactRepository contactRepository,
-                      CompanyRepository companyRepository,
-                      StatusRepository statusRepository) { 
+    public CrmService(ContactRepository contactRepository, CompanyRepository companyRepository, StatusRepository statusRepository) { 
         this.contactRepository = contactRepository;
         this.companyRepository = companyRepository;
         this.statusRepository = statusRepository;
